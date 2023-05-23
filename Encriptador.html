@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Encriptador</title>
+
+        <link rel="stylesheet" href="reset.css">
+        <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="Encriptador.css">
+     
+    </head>
+    <body>
+        <header>
+                <img class="logo" src="logo1.png" alt="logo da pagina">
+                <h1> Troque mensagens criptografadas</h1>
+                 <div class="informacao">
+                <img src="Vector.png"  <p> Apenas letras minúsculas e sem acentos.</p></img>
+                </div>
+        </header>
+        <main>  
+            <section>
+                <textarea class="text-area" cols="75" rows="15" placeholder= "Digite seu texto"></textarea>
+                <div class="botoes">
+                    <button class="botaoencrip" onclick="botaoencrip()">Criptografar</button>
+                    <button class="botaodesencrip" onclick="botaodesencrip()">Descriptografar</button>
+                 </div>
+
+            </section>
+            <section>
+                    <textarea class="mensagem" cols="75" rows="15"></textarea>
+                     <button class="botaocopiar" onclick="botaocopiar">Copiar</button>
+            </section>
+        </main> 
+        <footer>
+            <p class="copyright">&copy; Copyright - Francine Silva - 2023</p>
+        </footer>
+        <script src="Script.js"></script>
+    </body>
+</html>
